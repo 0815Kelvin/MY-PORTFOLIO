@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="My_portfolio.css">
+    <script src="https://kit.fontawesome.com/42ce5f67ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo-new.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, i am <span>Kelvin</span><br> Ogbe Osagie</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section> -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user new.png" alt="" class="img-fluid">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam accusantium earum
+                        quisquam nihil nemo fugit ratione, sit expedita amet velit voluptatibus laboriosam. Omnis neque
+                        veritatis obcaecati. Autem, repudiandae commodi. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quisquam laboriosam sed suscipit eum repudiandae iste voluptatem! Aspernatur
+                        non accusamus atque, voluptas tempora iusto repellat temporibus rerum, vel illo itaque quas?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li> <span>Web Development</span><br>Web app Development</li>
+                            <li> <span>Graphic Designer</span><br>Designing Quality and Captivating Graphics</li>
+                            <li> <span>SEO Content Creator</span><br>Creating Engaging and Lead Generating Content</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2022 - Current</span><br>UI/UX Intern at Julitech Solutions </li>
+                            <li> <span>2022 - Current</span><br>Front End Web Developer Intern at Julitech Solutions
+                            </li>
+                            <li> <span>2020 - Current</span><br>Graphics Designer at Authentic logistics</li>
+                            <li> <span>2020 - Current</span><br>Content creator at PRELA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2022</span><br>UI/UX & We Design at Julitech Solutions</li>
+                            <li> <span>2020</span><br>Direct-Response Copywriting Specialist</li>
+                            <li> <span>2017</span><br>B.sc, University of Benin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <----------------Services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum laboriosam deleniti similique
+                        quos cupiditate eligendi saepe sed iste assumenda, placeat accusantium atque delectus! Quae
+                        cumque sint voluptates adipisci, sit quas!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum laboriosam deleniti similique
+                        quos cupiditate eligendi saepe sed iste assumenda, placeat accusantium atque delectus! Quae
+                        cumque sint voluptates adipisci, sit quas!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum laboriosam deleniti similique
+                        quos cupiditate eligendi saepe sed iste assumenda, placeat accusantium atque delectus! Quae
+                        cumque sint voluptates adipisci, sit quas!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------Portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/mywork-3.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Headset App</h3>
+                        <p>Listen to your favourite musician from Quality Headset purchased from our shops Nationwide
+                            through our App </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Untitled design (2).png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Headphones Website</h3>
+                        <p>Browse our Website to get Quality Headphones delivered at your doorsteps</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-4.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Headphones App</h3>
+                        <p>Get pocket friendly Quality Headphones from our Apps delivered to your doorstep </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------Contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Profile.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright (C) Kelvin</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>
