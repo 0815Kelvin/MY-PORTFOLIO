@@ -15,14 +15,16 @@
         <div class="container">
             <nav>
                 <img src="img/logo-new.png" alt="logo" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#contact">Contact me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>UI/UX Designer</p>
@@ -39,11 +41,13 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam accusantium earum
-                        quisquam nihil nemo fugit ratione, sit expedita amet velit voluptatibus laboriosam. Omnis neque
-                        veritatis obcaecati. Autem, repudiandae commodi. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Quisquam laboriosam sed suscipit eum repudiandae iste voluptatem! Aspernatur
-                        non accusamus atque, voluptas tempora iusto repellat temporibus rerum, vel illo itaque quas?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                        veniam accusantium earumquisquam nihil nemo fugit ratione, sit expedita
+                        amet velit voluptatibus laboriosam. Omnis nequeveritatis obcaecati. Autem,
+                        repudiandae commodi. Lorem ipsum dolor sit amet consecteturadipisicing elit.
+                        Quisquam laboriosam sed suscipit eum repudiandae iste voluptatem! Aspernatur
+                        non accusamus atque, voluptas tempora iusto repellat temporibus rerum, vel
+                        illo itaque quas?</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -68,7 +72,7 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li> <span>2022</span><br>UI/UX & We Design at Julitech Solutions</li>
+                            <li> <span>2022</span><br>UI/UX & Graphic Design at Julitech Solutions</li>
                             <li> <span>2020</span><br>Direct-Response Copywriting Specialist</li>
                             <li> <span>2017</span><br>B.sc, University of Benin</li>
                         </ul>
@@ -191,6 +195,18 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
     </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
 
 </body>
 
